@@ -5,9 +5,26 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\Spr_TestPlayer</sprite>
+    <sprite>sprites\Spr_PistolBullet</sprite>
+    <sprite>sprites\Spr_RilfeBullet</sprite>
+    <sprite>sprites\Spr_TestWall</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bkg_TileSet</background>
+    <background>background\bkg_Grass</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\Obj_TestPlayer</object>
+    <object>objects\Obj_PistolBullet</object>
+    <object>objects\Obj_RifleBullet</object>
+    <object>objects\Obj_Wall</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\Rm_Test</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
